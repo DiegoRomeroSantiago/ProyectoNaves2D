@@ -1,0 +1,475 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UNITY/proyecto NAVES 2D/Assets
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51270
+Successfully changed project path to: E:/UNITY/proyecto NAVES 2D/Assets
+E:/UNITY/proyecto NAVES 2D/Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [112] Host "[IP] 10.40.0.118 [Port] 0 [Flags] 2 [Guid] 3086510443 [EditorId] 3086510443 [Version] 1048832 [Id] WindowsEditor(7,JOBS-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [112] Host "[IP] 10.40.0.118 [Port] 0 [Flags] 2 [Guid] 3086510443 [EditorId] 3086510443 [Version] 1048832 [Id] WindowsEditor(7,JOBS-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/proyecto NAVES 2D/Assets/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200 (ID=0x13ba)
+    Vendor:   NVIDIA
+    VRAM:     4044 MB
+    Driver:   31.0.15.5286
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.029047 seconds.
+- Loaded All Assemblies, in  0.775 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 783 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.130 seconds
+Domain Reload Profiling: 2903ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (399ms)
+				TypeCache.ScanAssembly (368ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2131ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1979ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1068ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (644ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.986 seconds
+Domain Reload Profiling: 7536ms
+	BeginReloadAssembly (364ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (36ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (16ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (6989ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (339ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1167ms)
+			ProcessInitializeOnLoadAttributes (4679ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.41 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (42.6 KB). Loaded Objects now: 481.
+Memory consumption went from 54.0 MB to 54.0 MB.
+Total: 3.292600 ms (FindLiveObjects: 0.037300 ms CreateObjectMapping: 0.003900 ms MarkObjects: 3.171500 ms  DeleteObjects: 0.079100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1179.490632 seconds.
+  path: Assets/naves/Frigate 1.png
+  artifactKey: Guid(45685b29c2bf94d4299747851d369c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Frigate 1.png using Guid(45685b29c2bf94d4299747851d369c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e1b2443ec98b196a4bae52d56d28984b') in 0.798516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/naves/Destroyer 2.png
+  artifactKey: Guid(4073f66c96ad5b942b96055b71f616d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Destroyer 2.png using Guid(4073f66c96ad5b942b96055b71f616d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '99f46109a2fac5ad990c784b19957dc0') in 0.027813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/naves/Turret Platform.png
+  artifactKey: Guid(3c6017ec27eea1242b33dee18f2d2f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Turret Platform.png using Guid(3c6017ec27eea1242b33dee18f2d2f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'de16b0f1e5703cfc2c1d05022577df71') in 0.056763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/fondos/bkgd_6.png
+  artifactKey: Guid(23f875ba23107fd48ad58c59e862b6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_6.png using Guid(23f875ba23107fd48ad58c59e862b6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9223b4b97c7814b8072af7fb8e616f76') in 0.031257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/fondos/bkgd_7.png
+  artifactKey: Guid(cfc2fd8854ac3694a95c933c03a06e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_7.png using Guid(cfc2fd8854ac3694a95c933c03a06e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '63719c60854bd76ea8dfcf2809ef64a3') in 0.028406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/naves/Cruiser 2.png
+  artifactKey: Guid(b3e88f14e065a6d4791e040b3c8edcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Cruiser 2.png using Guid(b3e88f14e065a6d4791e040b3c8edcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a1b1ba720a9ca1c8ad8b62769fad6b58') in 0.023066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/naves/Alien 4.png
+  artifactKey: Guid(59a2d69b5a0edea4b89269c5b89e1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Alien 4.png using Guid(59a2d69b5a0edea4b89269c5b89e1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '323b8b7f410619da332ad66cb6e59406') in 0.020708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/naves/Carrier 1.png
+  artifactKey: Guid(cd50d2e7b9ed9774f82dfa0b72b1ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Carrier 1.png using Guid(cd50d2e7b9ed9774f82dfa0b72b1ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8b0b48b822c4bba1746392475333717a') in 0.023411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/naves/Huge 1.png
+  artifactKey: Guid(2e9f08a68e1f3d74d970053195f7d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Huge 1.png using Guid(2e9f08a68e1f3d74d970053195f7d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c20902006b3da43ddc9bd1eff58b350b') in 0.022912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/naves/Station 2.png
+  artifactKey: Guid(a8e0f143f9fac61418121bee1a8d3efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Station 2.png using Guid(a8e0f143f9fac61418121bee1a8d3efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd32eb2ca288470a643562d8913c9a0a3') in 0.027586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/naves
+  artifactKey: Guid(a13e394577fc21a42a40041519e9d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves using Guid(a13e394577fc21a42a40041519e9d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b3fff34435e6aec3db2f4f8c6a73fbdf') in 0.001009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/naves/Station 1.png
+  artifactKey: Guid(284f073ba93f00940bc1a2d85425ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Station 1.png using Guid(284f073ba93f00940bc1a2d85425ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1dbbb83fa9a8330ef72914ba19d78ad6') in 0.024122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/naves/Alien 3.png
+  artifactKey: Guid(0d6b7db8e51cee04a99adcd870e37868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Alien 3.png using Guid(0d6b7db8e51cee04a99adcd870e37868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b2d8647c8a01171b4fb0e61d08d0549c') in 0.023622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fondos/bkgd_1.png
+  artifactKey: Guid(2166bc2c8f55ebf49a3228a65ed39f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_1.png using Guid(2166bc2c8f55ebf49a3228a65ed39f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f413931554aceb71aea17e6b37924699') in 0.135797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/fondos/bkgd_3.png
+  artifactKey: Guid(1b8c259e547d45142aa5c57bbc38b980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_3.png using Guid(1b8c259e547d45142aa5c57bbc38b980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cc408c5a987a7e4723776f6186c92ea4') in 0.036027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/fondos/bkgd_5.png
+  artifactKey: Guid(bef7e7d68adf3f54289e3f568cd9556e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_5.png using Guid(bef7e7d68adf3f54289e3f568cd9556e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c67e7e4b646ea92c582c1834595f71e6') in 0.027668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/naves/Fighter 1.png
+  artifactKey: Guid(8ded8c1831320154689133466cb3e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Fighter 1.png using Guid(8ded8c1831320154689133466cb3e8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '04076027e844fdea2aece4c42077d6de') in 0.028521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/fondos/bkgd_0.png
+  artifactKey: Guid(43cbfbb7cbe802d44811a68122c6c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_0.png using Guid(43cbfbb7cbe802d44811a68122c6c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a963db1f04cde721f5cf0748221d45e3') in 0.026795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/naves/Cruiser 3.png
+  artifactKey: Guid(5274fe9a45bee9841a36e99307921e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Cruiser 3.png using Guid(5274fe9a45bee9841a36e99307921e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '31feca724f27c0158d4fb17b405b6934') in 0.025967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/naves/Alien 2.png
+  artifactKey: Guid(4668a5b635e4f6a4a982e521da207214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Alien 2.png using Guid(4668a5b635e4f6a4a982e521da207214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '40bc99cf61e7537be226714c348a41eb') in 0.026332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/naves/Destroyer 1.png
+  artifactKey: Guid(70846899b7945974f944b4d91e50d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Destroyer 1.png using Guid(70846899b7945974f944b4d91e50d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '98b522e098498508eba8255921af1e75') in 0.024425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/naves/Fighter 2.png
+  artifactKey: Guid(c0a81415f9bd3ee4aaed30fa3e20f78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Fighter 2.png using Guid(c0a81415f9bd3ee4aaed30fa3e20f78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '42ebcbcb2410649c57d991a4218032fc') in 0.023112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/naves/Cruiser 1.png
+  artifactKey: Guid(786501386b9ca854ebe57e1a5218df2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Cruiser 1.png using Guid(786501386b9ca854ebe57e1a5218df2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0acd9b4bebb526bad85ce545aa94a1ee') in 0.023031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/naves/Frigate 2.png
+  artifactKey: Guid(242f4aa3f36471849893e286bef7d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Frigate 2.png using Guid(242f4aa3f36471849893e286bef7d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '50146494d9fcff31813f138ea1920754') in 0.024024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/naves/Fighter 3.png
+  artifactKey: Guid(2968e4518d23b594d95fe0affe8f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Fighter 3.png using Guid(2968e4518d23b594d95fe0affe8f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5799724860b9628ce1495b09cdbcf843') in 0.022968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/naves/Alien 1.png
+  artifactKey: Guid(77ec11efdb8566749adbe4bc1fce5185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Alien 1.png using Guid(77ec11efdb8566749adbe4bc1fce5185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '12bd15ff6a08e1be8239d9c48554814a') in 0.026562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/fondos/bkgd_4.png
+  artifactKey: Guid(b621b013167c1c44dad73981e553d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_4.png using Guid(b621b013167c1c44dad73981e553d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c251957f88dab6fa612bd5b4958874a9') in 0.025578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/fondos/bkgd_2.png
+  artifactKey: Guid(ca0ed1f68bc393c4c808af9a0d4ae990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondos/bkgd_2.png using Guid(ca0ed1f68bc393c4c808af9a0d4ae990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1b45235d080928f8d45f2c3e9c5b9777') in 0.026260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/naves/Fighter 4.png
+  artifactKey: Guid(ae03fe382b8b7174e91440692bb173f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naves/Fighter 4.png using Guid(ae03fe382b8b7174e91440692bb173f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ae88bbed021110097f63f14490d62683') in 0.020673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
